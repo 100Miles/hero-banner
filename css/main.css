@@ -14,6 +14,11 @@ body{
 h2 {
   font-size: 4rem;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin: 0;
+  line-height: 1.4;
+  display: inline-block;
 }
 
 p {
@@ -39,4 +44,5 @@ p {
   left: 50%;
   bottom: 1rem;
   transform: translateX(-50%);
+  max-width: 45em;
 }
